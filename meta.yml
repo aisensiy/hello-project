@@ -1,0 +1,9 @@
+freeze_files:
+    - meta.yml
+    - test/
+    - package.json
+    - .drone.yml
+    - .report.json
+report_files:
+    - test-results.xml
+report_target: .report.json

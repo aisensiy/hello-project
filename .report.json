@@ -1,0 +1,33 @@
+{
+    "test_count": 7, 
+    "test_cases": [
+        {
+            "name": "Your HTML Page should have a title @title", 
+            "passed": false
+        }, 
+        {
+            "name": "Your HTML Page should have a title that contains your name @title", 
+            "passed": false
+        }, 
+        {
+            "name": "Your HTML Page should have a h1 element @h1", 
+            "passed": false
+        }, 
+        {
+            "name": "Your HTML Page should have content in the h1 element @h1", 
+            "passed": false
+        }, 
+        {
+            "name": "Your HTML Page should have a ul @ul", 
+            "passed": false
+        }, 
+        {
+            "name": "Your HTML Page should have at least 2 li elements @li", 
+            "passed": false
+        }, 
+        {
+            "name": "Your HTML Page should have content for all `li` elements. @li", 
+            "passed": false
+        }
+    ]
+}
