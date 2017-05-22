@@ -1,63 +1,72 @@
+这是一个用于演示 Real Topper Project Based Learning 的项目。这个项目要求创建一个基本的 HTML 网页。
 
-# Hello Code School
+# 前提
 
-This is a sample project to test out how projects work at Code School. For this project, you'll be creating a basic website using HTML. If you want to deploy it to a real website, we'll even walkthrough how to do that!
+想要完成这个项目，你需要知道一个基本的 HTML 语法：
 
-# Getting Started
+* 知道什么是 HTML 标签
+* 知道一些基本的标签，比如 `title` `h1` `ul` `li`
 
-To get started with this project, head over to the [Hello Code School](https://www.codeschool.com/projects/hello-code-school) project on Code School, and begin! It'll walk you through all of the steps below. They're included here in the readme in case you work better locally, or want to try working on this project offline.
+并且，你需要知道一些 `git` 的基本使用方式：
 
-# Prerequisites
+* 知道如何 `clone` 远端的 `git` 仓库
+* 知道如何将添加或者修改后的文件提交到本地 `git` 仓库
+* 知道如何将本地的仓库提交到远端的仓库
 
-In order to complete this project, you'll need to know the basics of HTML! Aside from that, you'll need a local computer where you can install git, and edit some files. We'll walk you through that part, so if you haven't used Git before -- don't worry. We recommend that you should have already completed Code Schools [Front-End Foundations](https://www.codeschool.com/courses/front-end-foundations) course, or have basic familiarity with HTML. When we say basic familiarity here's what we mean:
+还有，你可能需要知道一些 `nodejs` 以及 `npm` 的知识，**不过在目前这个项目，这些不是必须的**：
 
-* Know what an HTML tag looks like
-* Know some of the most common tags -- `title`, `h1`, `ul`, `li`.
+* 知道什么是 `nodejs`
+* 知道如何利用 `npm` 对 HTML Javascript 的项目进行依赖管理
 
-If you know these, you should be all set to jump in and give this project a shot!
 
-# Setup
+这里所需要你学习的基本知识都是在从事前端开发工作所必不可少的，它们在你以后慢慢的开发长路上一定会发挥作用，希望你在做这个项目之前，对这些概念有一些基本的了解。
 
-In order to get this working, you'll need to have [Git](https://git-scm.com/) installed, and have a GitHub account. If this is your first time setting up Git, I'd recommend checking out Code School's video on How to Setup Git for Code School Projects in 5 Minutes to learn what you need to know.
+# 环境
 
-To get started, fork this repository to your account and clone it down locally. If you want, you can also try doing this completely from GitHub!
+为了构建这个项目，你需要至少将下面加 `*` 的东西安装到你的电脑上：
 
-# Build
+1. [`git`](https://git-scm.com/) `*`
+2. `nodejs` 
+3. `npm`
 
-Once you've forked this repository, go ahead and make the following changes to the `index.html` file.
+# 构建
 
-## Add a Page Title
+在你开始这个项目之后（在项目的介绍页面应该有一个按钮），项目会为你准备一个远端的仓库，里面包含了该项目的基本结构，你将要按照下面的要求去修改 `index.html` 文件。
 
-Create a `title` element with your Code School account name.
+## 1. 添加 title
 
-## Add a Header Element
+为网页添加一个 `title` 标签。
 
-Add an `h1` saying "Hello, Code School!".
+## 2. 添加一个 header
 
-## Create an Unordered List
+添加一个包含 "Hello, Code School!" 的 `h1` 标签。
 
-Create a `ul` element with at least 2 `li` elements.
+## 3. 创建一个无序列表
 
-## What Do You Want to Learn?
+创建一个 `ul` 标签，并且其中包含至少两个 `li` 标签。
 
-In these `li` elements, list out what you want to learn.
+## 4. 罗列你想要学习的技术
 
-# Checking Your Work
+在 `li` 标签中添加你想要学习的技术。
 
-Once you've completed all of the tasks, go ahead and commit those to your fork of this repository and push it up to GitHub. Follow the directions on [Hello Code School](https://www.codeschool.com/projects/hello-code-school) to submit your project and get feedback from Code School.
+# 提交你的成果
 
-## Running Tests Locally
+如果你完成了上面的所有任务，将这个项目用 `git push origin master` 命令提交。在提交的过程中会需要你输入账号密码，你应该会在练习页面中看到。
 
-You don't need to run and of the tests locally -- they'll all run when you submit your project. If you're an overachiever and want to try running the tests locally, here's what you'll need to do.
+## 在本地执行测试
 
-First off, install [node.js](https://nodejs.org/en/) locally. Next you'll need to run a few commands from this folder.
+首先，这一步不是必须的。
+
+但是，还是非常建议你学习这个步骤。
+
+你需要在本地安装 [node.js](https://nodejs.org/en/)，然后你需要在这个项目目录下执行以下的命令：
 
 ```
 $ npm install
 $ npm test
 ```
 
-If everything is working, you should see something like this:
+如果你所编写的页面是没有问题的，就会出现类似下面的提示信息：
 
 ```
 HelloCodeSchoolProject (answer) $ npm test
@@ -77,18 +86,6 @@ HelloCodeSchoolProject (answer) $ npm test
   4 passing (306ms)
 ```
 
-# Making it Public
+# 其他问题
 
-Once all tests are passing, try pushing your master branch up to the `gh-pages` branch -- this will make your webpage available on the web! Here's a command to do that:
-
-```
-$ git push origin master:gh-pages
-```
-
-This will make your `index.html` file available at the URL:
-
-`http://<username>.github.io/HelloCodeSchoolProject/`
-
-# Another Answer
-
-If you want to checkout one other possible solution to this problem and compare your work, you can checkout the `solution` branch.
+如果你还是不了解如何使用这个项目，请联系作者 aisensiy[AT]163.com。
