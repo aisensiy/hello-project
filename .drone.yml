@@ -28,3 +28,5 @@ pipeline:
     # Mount the cache volume, needs "Trusted"
     volumes:
       - /cache:/cache
+    when: 
+      status: [ success, failure ]
