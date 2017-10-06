@@ -6,7 +6,7 @@ pipeline:
       - ./node_modules
     # Mount the cache volume, needs "Trusted"
     volumes:
-      - /tmp/cache:/cache
+      - /cache:/cache
 
   build:
     image: node:6.10.2-alpine
@@ -27,4 +27,4 @@ pipeline:
       - ./node_modules
     # Mount the cache volume, needs "Trusted"
     volumes:
-      - /tmp/cache:/cache
+      - /cache:/cache
